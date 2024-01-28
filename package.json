@@ -1,0 +1,22 @@
+{
+  "name": "insomnia-plugin-google-auth",
+  "version": "1.0.0",
+  "private": false,
+  "author": {
+    "name": "Jared Szechy",
+    "email": "jared.szechy@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szechyjs/insomnia-plugin-google-auth"
+  },
+  "insomnia": {
+    "name": "google-auth",
+    "description": "Generate a Google JWT token for use with Google APIs"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
