@@ -15,9 +15,15 @@
     "name": "google-auth",
     "description": "Generate a Google JWT token for use with Google APIs"
   },
+  "scripts": {
+    "dev:mac": "nodemon --exec \"rsync -av --exclude='.*' . ~/Library/Application\\ Support/Insomnia/plugins/insomnia-plugin-google-auth\""
+  },
   "main": "main.js",
   "dependencies": {
     "axios": "^1.6.7",
     "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
