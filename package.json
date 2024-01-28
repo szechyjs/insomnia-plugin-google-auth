@@ -2,6 +2,7 @@
   "name": "insomnia-plugin-google-auth",
   "version": "1.0.0",
   "private": false,
+  "license": "MIT",
   "author": {
     "name": "Jared Szechy",
     "email": "jared.szechy@gmail.com"
